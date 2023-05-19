@@ -19,7 +19,7 @@ The Semaphore Network EthSIM Wallet aims to allow anyone to turn ANY cellphone i
 By combining a cheap(~$10) secure element SIM-sized JavaCard/Smarcard and almost ANY cellphone;
 The Semaphore Network EthSIM platform enables an extremely low cost, secure and open hardware wallet experience.
 
-<!-- <VIDEO> -->
+![](https://github.com/base0010/semaphore_network_ethsim/blob/main/animation.gif)
 
 ## Background:
 Almost everyone knows about the SIM card that goes in your phone, billions are produced annually and as such are probably one of the most ubiquitious electronic devices in the world. What remains elusively packed away inside that SIM card, is that it runs a subset of a secure computing platform called Javacard.
