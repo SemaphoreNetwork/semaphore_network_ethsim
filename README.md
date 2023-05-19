@@ -30,8 +30,9 @@ Javacard is a predominant smartcard and secure element platform used by many man
 
 So clearly a Javacard, provided the right software can do both **crypto stuff** AND **phone stuff**.
 The phone stuff is important to Semaphore Network as we build out a truely decentralized cellular network.
-A key differientiator of our network is using self soverign Ethereum cryptographic identity, at the core network layer.
-The management of these keys can be cumbersome, especially if the phones of a truely global audience might not even have an app store.
+A key differentiator of our network is using self soverign Ethereum cryptographic identity, at the core network layer.
+
+The management of these keys can be cumbersome, especially if the phones of a truly global audience might not even have an app store.
 
 Therefore, we needed a truly universal way to deliver UI to our users, something absent app stores, walled gardens etc.
 On our quest give power back to the people, we stumbled across a piece of ancient telco knowledge....
