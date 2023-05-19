@@ -1,4 +1,6 @@
 # Semaphore Network EthSIM Wallet
+![](https://github.com/base0010/semaphore_network_ethsim/blob/main/logo0.png)
+
 
 ### DO NOT USE TO STORE VALUABLES. VERY MUCH A WORK IN PROGRESS
 
