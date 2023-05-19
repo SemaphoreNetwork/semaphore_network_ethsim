@@ -29,7 +29,7 @@ Almost everyone knows about the SIM card that goes in your phone, billions are p
 Javacard is a predominant smartcard and secure element platform used by many manufacturers; if you use a hardware wallet or secure element today chances are that you're using a Javacard at some level. Grid+, Status Keycard, Yubikey(partial? ), Ledger(partial) and Kong all use Javacard secure elements at their core.
 
 So clearly a Javacard, provided the right software can do both **crypto stuff** AND **phone stuff**.
-The phone stuff is important to Semaphore Network as we build out a truely decentralized cellular network.
+The phone stuff is important to Semaphore Network as we build out a truly decentralized cellular network.
 A key differentiator of our network is using self soverign Ethereum cryptographic identity, at the core network layer.
 
 The management of these keys can be cumbersome, especially if the phones of a truly global audience might not even have an app store.
