@@ -48,5 +48,43 @@ So what's the big deal? Until now, the intersections of phone Javacard technolog
 
 Not anymore! we've started a byte level rewrite of this functionality and are sharing it here in our hardware wallet implementation.
 
+## Basic Functionality
+The ETHSIM companion app [https://github.com/base0010/ethsim-companion] is designed to create more advanced transaction types that can be put on EVM compatible chains. Outside very basic transaction types, "Send ETH", "Show Public Key (APDU)" the ETHSIM app will also accept "blid signed" transaction types that will allow you to do any arbitrary EVM chain interaction. We have basic support for sending built in tokens. Feel free to add more in a PR. 
+
+### Sending ETH to Address (via SIM applet): 
+**Input:  "Amount to Send"** - input the amount of ETH you wish to send. 
+**Input:  "Address to Send to"** the address to send ETH to. (prefixed with 0x)
+
+-> **Select the Sign** button and input PIN (if enabled)
+-> **Select the "Copy Sig"** button to display the final signature that will be put on chain. 
+
+**Copy the signature across the airgap**
+-> Send the signature to chain via RPC or companion webapp.
+
+
+### Blind Signature (via webapp/external): 
+Use this option to perform more advanced transaction types and smart contract interaction. And uses the companion application to generate a hash wich will be signed with the STK applet.
+
+**EthSIM companion webapp**
+
+**Input:  "Amount to Send"** - input the amount of ETH you wish to send.  
+
+**Input:  "Address to Send to"** the address to send ETH to. (prefixed with 0x)  
+
+**Input:  "Token Selection"** - select the token type you wish to send  
+
+
+**Copy Hash:** Copy the transaction hash generated in the webapp to the airgapped device  
+
+
+**Input: "Blind Sign"** - input the hash from the previous step into the Blind Sign prompt in the SIM applet.  
+
+
+  -> **Select the Sign button** and input PIN (if enabled)  
+  
+  -> **Select the "Copy Sig"** button to display the final signature that will be put on chain. 
+
+
+
 ## Limitations:
 There are many pros cons
