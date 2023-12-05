@@ -52,11 +52,15 @@ Not anymore! we've started a byte level rewrite of this functionality and are sh
 The ETHSIM companion app [https://github.com/base0010/ethsim-companion] is designed to create more advanced transaction types that can be put on EVM compatible chains. Outside very basic transaction types, "Send ETH", "Show Public Key (APDU)" the ETHSIM app will also accept "blid signed" transaction types that will allow you to do any arbitrary EVM chain interaction. We have basic support for sending built in tokens. Feel free to add more in a PR. 
 
 ### Sending ETH to Address (via SIM applet): 
-**Input:  "Amount to Send"** - input the amount of ETH you wish to send. 
-**Input:  "Address to Send to"** the address to send ETH to. (prefixed with 0x)
+**Input:  "Amount to Send"** - input the amount of ETH you wish to send.  
 
--> **Select the Sign** button and input PIN (if enabled)
--> **Select the "Copy Sig"** button to display the final signature that will be put on chain. 
+**Input:  "Address to Send to"** the address to send ETH to. (prefixed with 0x)  
+
+
+-> **Select the Sign** button and input PIN (if enabled)  
+
+-> **Select the "Copy Sig"** button to display the final signature that will be put on chain.  
+
 
 **Copy the signature across the airgap**
 -> Send the signature to chain via RPC or companion webapp.
